@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 25px;
+    flex-grow: 3
+}
+
+header {
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+main {
+    padding-top: 150px;
+
+}
+
+footer {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+label#identiti {
+    padding-top: 5px;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+.txt {
+    color: white;
+}
+
+body ::-webkit-scrollbar  {
+
+    display: none;
+}
