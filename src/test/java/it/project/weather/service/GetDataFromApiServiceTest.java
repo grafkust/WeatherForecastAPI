@@ -41,7 +41,7 @@ public class GetDataFromApiServiceTest {
 
     @Test
     public void searchLocationByNameTest(){
-        List<LocationDto> locationDto = getDataFromApiService.searchLocationByNameName(testCityName);
+        List locationDto = getDataFromApiService.searchLocationByName(testCityName);
 
         Assert.notNull(locationDto, "");
 

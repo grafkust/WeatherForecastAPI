@@ -34,12 +34,6 @@ public class GetDataFromApiService {
         return restTemplate.getForObject(request, List.class);
     }
 
-    public List<LocationDto> searchLocationByNameName (String word) {
 
-        String searchUrl = "https://api.weatherapi.com/v1/search.json?key=" + key + "&q=";
-        String request  = searchUrl + word;
-
-        return restTemplate.getForObject(request, List.class);
-    }
 
 }
